@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container">
+    <header class="container ">
       <nav class="navbar container p-3  mb-5 navbar-expand-lg  bg-light">
         <div class="container style="">
           <img src="images/logo.png" alt="" />
@@ -33,21 +33,22 @@
               <a
                 class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link active"
                 aria-current="page"
-                href="#"
+                href="#slider-image"
                 >Home</a
               >
               <a
-                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link"
-                href="#"
+                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link active"
+                href="#shoes"
                 >Shoes</a
               >
               <a
-                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link"
-                href="#"
+                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link active"
+                href="#bags"
                 >Backpack</a
               >
               <a
-                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link"
+                class="ms-4 p-3 rounded me-2 w-25 border-rounded nav-link active"
+                href="#subscribe"
                 >Subscribe</a
               >
             </div>
@@ -55,10 +56,10 @@
         </div>
       </nav>
       <!--carousel  -->
-      <section class="slider-image">
+      <section id="slider-image">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active bg-warning p-5 border-0 rounded">
+            <div class="carousel-item active p-5 border-0 rounded" style="background-color:#feeae9 ;">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div class="inner-text-box">
@@ -76,7 +77,7 @@
               </div>
             </div>
             <!--  -->
-            <div class="carousel-item bg-warning p-5 border-0 rounded">
+            <div class="carousel-item p-5 border-0 rounded" style="background-color:#feeae9;" >
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div class="inner-text-box">
@@ -94,7 +95,7 @@
               </div>
             </div>
             <!--  -->
-            <div class="carousel-item bg-warning p-5 border-0 rounded">
+            <div class="carousel-item p-5 border-0 rounded" style="background-color:#feeae9;" >
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center">
                   <div class="inner-text-box">
@@ -129,7 +130,7 @@
         <div class="row g-4">
           <div class="col-sm col-md-6 col-lg-4">
             <div class="d-flex justify-content-between align-items-center p-3 bg-warning border-0 rounded">
-              <h1>Bag</h1>
+              <h1>watch</h1>
               <img class="img-fluid" style="width:30%;" src="images/categories/watch.png" alt="">
             </div>
         </div>
@@ -143,7 +144,7 @@
       <!--  -->
           <div class="col-sm col-md-6 col-lg-4">
             <div class="d-flex justify-content-between align-items-center p-3 bg-success border-0 rounded">
-              <h1>Bag</h1>
+              <h1>Shoes</h1>
               <img class="img-fluid" style="width:30%;" src="images/categories/shoes.png" alt="">
             </div>
         </div>
@@ -152,18 +153,18 @@
     <!--catagories-end  -->
 
     <!-- shoes-start -->
-    <section
+    <section id="shoes"
       class="container"
       style="margin-top: 5%"
     >
-      <h1>Shoes</h1>
+      <h1 class="mb-3">Shoes</h1>
       <div class="row g-4">
         <!-- single-shoes-catagories-start -->
         <div class="col-lg-4 col-md-6 col-sm ">
           <div class="shadow-lg p-3 border-0 rounded">
             <img src="images/shoes/shoe-1.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
+              <h5 class="card-title mb-2">Supply 350</h5>
               <h4>$160</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the
@@ -180,7 +181,7 @@
           <div class="shadow-lg p-3 border-0 rounded">
             <img src="images/shoes/shoe-2.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
+              <h5 class="card-title mb-2">Supply 350</h5>
               <h4>$160</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the
@@ -197,7 +198,7 @@
           <div class="shadow-lg p-3 border-0 rounded">
             <img src="images/shoes/shoe-3.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
+              <h5 class="card-title mb-2">Supply 350</h5>
               <h4>$160</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the
@@ -213,18 +214,18 @@
     <!-- shoes-end -->
 
     <!-- bags-start -->
-    <section
+    <section id="bags"
     class="container"
     style="margin-top: 5%"
   >
-    <h1>Bags</h1>
+    <h1 class="mb-3">Bags</h1>
     <div class="row g-4">
       <!-- single-bags-catagories-start -->
       <div class="col-lg-4 col-md-6 col-sm ">
         <div class="shadow-lg p-3 border-0 rounded">
           <img src="images/bags/bag-1.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Supply 350</h5>
+            <h5 class="card-title mb-2">Supply 350</h5>
             <h4>$160</h4>
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -241,7 +242,7 @@
         <div class="shadow-lg p-3 border-0 rounded">
           <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Supply 350</h5>
+            <h5 class="card-title mb-2">Supply 350</h5>
             <h4>$160</h4>
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -258,7 +259,7 @@
         <div class="shadow-lg p-3 border-0 rounded">
           <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Supply 350</h5>
+            <h5 class="card-title mb-2">Supply 350</h5>
             <h4>$160</h4>
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -272,9 +273,9 @@
       </div>
   </section>
     <!-- bags-end -->
-    <section
+    <section id="subscribe"
       class="container rounded p-5 d-flex justify-content-center align-items-center"
-      style="margin-top: 5%; background-color: rgba(255, 214, 189, 0.783)"
+      style="margin-top: 5%; background-color:#feeae9;"
     >
       <div class="input-field">
         <h1>LET'S STAY IN TOUCH</h1>
@@ -290,6 +291,13 @@
         <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </section>
+    <footer class="mt-5 text-center">
+      <p>
+        <small>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, possimus?
+        </small>
+      </p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
