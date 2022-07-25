@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container ">
+    <header class="container sticky-top">
       <nav class="navbar container p-3  mb-5 navbar-expand-lg  bg-light">
         <div class="container style="">
           <img src="images/logo.png" alt="" />
@@ -55,8 +55,9 @@
           </div>
         </div>
       </nav>
-      <!--carousel  -->
-      <section id="slider-image">
+    </header>
+      <!--carousel-start  -->
+      <section class="container" id="slider-image">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active p-5 border-0 rounded" style="background-color:#feeae9 ;">
@@ -123,7 +124,9 @@
           </button>
         </div>
       </section>
-    </header>
+
+      <!-- carousel-end -->
+
     <!-- catagories-start -->
     <section class="catagories my-5">
       <div class="container">
@@ -273,6 +276,7 @@
       </div>
   </section>
     <!-- bags-end -->
+    
     <section id="subscribe"
       class="container rounded p-5 d-flex justify-content-center align-items-center"
       style="margin-top: 5%; background-color:#feeae9;"
